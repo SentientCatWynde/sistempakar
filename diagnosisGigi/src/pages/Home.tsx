@@ -12,7 +12,7 @@ const Home: React.FC = () => {
 
   const nextQBtnHandler = () => {
     console.log(i);
-    if (i >= 10){
+    if (i >= 16){
       console.log('maximum question');
     } else {
       seti(i+1);
